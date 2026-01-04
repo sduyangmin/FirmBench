@@ -1,0 +1,11 @@
+raw_repo/
+logs/
+results/
+insight.md
+current_todo.md
+.env
+*.pyc
+*.log
+docs/AOA_expected.md
+paper_latex/
+plot/

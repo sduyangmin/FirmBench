@@ -1,0 +1,53 @@
+{
+    "FinCode": {
+        "train_data": "./StructuredReasoning/data/fincode_train.jsonl",
+        "val_data": "./StructuredReasoning/data/fincode_train.jsonl",
+        "test_data": "./StructuredReasoning/data/fincode_test.jsonl"
+    },
+    "CodeFinQA": {
+        "train_data": "./StructuredReasoning/data/codefinqa_train.jsonl",
+        "val_data": "./StructuredReasoning/data/codefinqa_val.jsonl",
+        "test_data": "./StructuredReasoning/data/codefinqa_test.jsonl"
+    },
+    "CodeTAT-QA": {
+        "train_data": "./StructuredReasoning/data/codetat_qa_train.jsonl",
+        "val_data": "./StructuredReasoning/data/codetat_qa_val.jsonl",
+        "test_data": "./StructuredReasoning/data/codetat_qa_test.jsonl"
+    },
+    "SEC-NUM": {
+        "train_data": "./StructuredReasoning/data/sec_num_train.jsonl",
+        "val_data": "./StructuredReasoning/data/sec_num_val.jsonl",
+        "test_data": "./StructuredReasoning/data/sec_num_test.jsonl"
+    },
+    "TAT-QA": { 
+        "train_data": "./StructuredReasoning/data/tat_qa_test.jsonl",
+        "val_data": "./StructuredReasoning/data/tat_qa_test.jsonl",
+        "test_data": "./StructuredReasoning/data/tat_qa_test.jsonl"
+    },
+    "ConvFinQA": {
+        "train_data": "./StructuredReasoning/data/convfinqa_test.jsonl",
+        "val_data": "./StructuredReasoning/data/convfinqa_test.jsonl",
+        "test_data": "./StructuredReasoning/data/convfinqa_test.jsonl"
+    },
+    "FinKnow": {
+        "train_data": "./StructuredReasoning/data/finknow_train.jsonl",
+        "val_data": "./StructuredReasoning/data/finknow_val.jsonl",
+        "test_data": "./StructuredReasoning/data/finknow_test.jsonl"
+    },
+    "FormulaEval": {
+        "train_data": "./StructuredReasoning/data/formulaeval_test.jsonl",
+        "val_data": "./StructuredReasoning/data/formulaeval_test.jsonl",
+        "test_data": "./StructuredReasoning/data/formulaeval_test.jsonl"
+    },
+    "finer": {
+        "train_data": "./StructuredReasoning/data/finer_train.jsonl",
+        "val_data": "./StructuredReasoning/data/finer_val.jsonl",
+        "test_data": "./StructuredReasoning/data/finer_test.jsonl"
+    },
+    "formula": {
+        "train_data": "./StructuredReasoning/data/formula_train.jsonl",
+        "val_data": "./StructuredReasoning/data/formula_val.jsonl",
+        "test_data": "./StructuredReasoning/data/formula_test.jsonl"
+    }
+}
+

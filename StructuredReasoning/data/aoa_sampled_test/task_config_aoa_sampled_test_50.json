@@ -1,0 +1,91 @@
+{
+  "FinCode": {
+    "train_data": "./StructuredReasoning/data/fincode_train.jsonl",
+    "val_data": "./StructuredReasoning/data/fincode_train.jsonl",
+    "test_data": "StructuredReasoning/data/aoa_sampled_test/sampled_jsonl/FinCode__sample_7_seed42.jsonl"
+  },
+  "CodeFinQA": {
+    "train_data": "./StructuredReasoning/data/codefinqa_train.jsonl",
+    "val_data": "./StructuredReasoning/data/codefinqa_val.jsonl",
+    "test_data": "StructuredReasoning/data/aoa_sampled_test/sampled_jsonl/CodeFinQA__sample_50_seed42.jsonl"
+  },
+  "CodeTAT-QA": {
+    "train_data": "./StructuredReasoning/data/codetat_qa_train.jsonl",
+    "val_data": "./StructuredReasoning/data/codetat_qa_val.jsonl",
+    "test_data": "StructuredReasoning/data/aoa_sampled_test/sampled_jsonl/CodeTAT-QA__sample_50_seed42.jsonl"
+  },
+  "SEC-NUM": {
+    "train_data": "./StructuredReasoning/data/sec_num_train.jsonl",
+    "val_data": "./StructuredReasoning/data/sec_num_val.jsonl",
+    "test_data": "StructuredReasoning/data/aoa_sampled_test/sampled_jsonl/SEC-NUM__sample_50_seed42.jsonl"
+  },
+  "TAT-QA": {
+    "train_data": "./StructuredReasoning/data/tat_qa_test.jsonl",
+    "val_data": "./StructuredReasoning/data/tat_qa_test.jsonl",
+    "test_data": "StructuredReasoning/data/aoa_sampled_test/sampled_jsonl/TAT-QA__sample_50_seed42.jsonl"
+  },
+  "ConvFinQA": {
+    "train_data": "./StructuredReasoning/data/convfinqa_test.jsonl",
+    "val_data": "./StructuredReasoning/data/convfinqa_test.jsonl",
+    "test_data": "StructuredReasoning/data/aoa_sampled_test/sampled_jsonl/ConvFinQA__sample_50_seed42.jsonl"
+  },
+  "FinKnow": {
+    "train_data": "./StructuredReasoning/data/finknow_train.jsonl",
+    "val_data": "./StructuredReasoning/data/finknow_val.jsonl",
+    "test_data": "StructuredReasoning/data/aoa_sampled_test/sampled_jsonl/FinKnow__sample_50_seed42.jsonl"
+  },
+  "FormulaEval": {
+    "train_data": "./StructuredReasoning/data/formulaeval_test.jsonl",
+    "val_data": "./StructuredReasoning/data/formulaeval_test.jsonl",
+    "test_data": "StructuredReasoning/data/aoa_sampled_test/sampled_jsonl/FormulaEval__sample_50_seed42.jsonl"
+  },
+  "finer": {
+    "train_data": "./StructuredReasoning/data/finer_train.jsonl",
+    "val_data": "./StructuredReasoning/data/finer_val.jsonl",
+    "test_data": "StructuredReasoning/data/aoa_sampled_test/sampled_jsonl/finer__sample_50_seed42.jsonl"
+  },
+  "formula": {
+    "train_data": "./StructuredReasoning/data/formula_train.jsonl",
+    "val_data": "./StructuredReasoning/data/formula_val.jsonl",
+    "test_data": "StructuredReasoning/data/aoa_sampled_test/sampled_jsonl/formula__sample_50_seed42.jsonl"
+  },
+  "factset": {
+    "train_data": "./StructuredReasoning/data/factset_train.jsonl",
+    "val_data": "./StructuredReasoning/data/factset_val.jsonl",
+    "test_data": "StructuredReasoning/data/aoa_sampled_test/sampled_jsonl/factset__sample_50_seed42.jsonl"
+  },
+  "_meta": {
+    "generated_by": "Agents/aoa/sample_testset_and_reclassify.py",
+    "base_config": "StructuredReasoning/data/task_config.json",
+    "seed": 42,
+    "k": 50,
+    "tasks_requested": [
+      "FinCode",
+      "CodeFinQA",
+      "CodeTAT-QA",
+      "SEC-NUM",
+      "TAT-QA",
+      "ConvFinQA",
+      "FinKnow",
+      "FormulaEval",
+      "finer",
+      "formula",
+      "factset"
+    ],
+    "tasks_written": [
+      "CodeFinQA",
+      "CodeTAT-QA",
+      "ConvFinQA",
+      "FinCode",
+      "FinKnow",
+      "FormulaEval",
+      "SEC-NUM",
+      "TAT-QA",
+      "factset",
+      "finer",
+      "formula"
+    ],
+    "tasks_skipped": [],
+    "note": "test_data is remapped to sampled train jsonl for extra-test evaluation."
+  }
+}

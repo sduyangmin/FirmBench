@@ -1,0 +1,6 @@
+openai>=1.0.0
+python-dotenv>=1.0.0
+tiktoken
+sentence-transformers>=2.2.0
+faiss-cpu>=1.7.4
+scikit-learn>=1.0.0
